@@ -52,10 +52,6 @@ app.get('/',(req,res) => {                                  // Transfer index.ht
 })
 
 
-function my(){
-  swal("Sucssess", "Mail Send Successfully!!!!", "success")
-}
-
 //form action 
 app.post('/sendmail',(req,res) => {
         upload(req,res,function(error){
